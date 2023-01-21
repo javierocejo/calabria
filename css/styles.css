@@ -1,0 +1,30 @@
+body {
+    background-color: #FFFFFF;
+}
+
+.imgbox {
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
+
+.center-fit {
+    margin: auto;
+}
+
+
+@media only screen and (max-device-width: 768px) {
+
+    .center-fit {
+        width: 100%;
+        margin: auto;
+    }
+
+    .imgbox {
+        display: grid;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+~
